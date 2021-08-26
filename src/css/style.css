@@ -1,0 +1,20 @@
+body {
+    font-family: 'Rampart One', cursive;
+}
+
+.image {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.game-table {
+    border: 1px solid red;
+}
+.cell {
+    background-color: rgb(47, 158, 32);
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+}
