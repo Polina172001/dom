@@ -1,4 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable comma-dangle */
+/* eslint-disable linebreak-style */
 /* eslint-disable comma-spacing */
 /* eslint-disable linebreak-style */
 /* eslint-disable indent */
@@ -36,8 +38,11 @@ module.exports = {
         ],
       },
       {
-        test: /\.svg$/,
-        type: 'asset/resource',
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [{
+          loader: 'file-loader',
+          // eslint-disable-next-line array-bracket-spacing
+        }, ],
       },
     ],
   },
