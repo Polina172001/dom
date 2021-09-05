@@ -12,7 +12,7 @@ body {
     border: 1px solid red;
 }
 .cell {
-    background-color: rgb(47, 158, 32);
+    background-color: blue;
     border: 1px solid black;
     border-radius: 5%;
     width: 100px;

@@ -15,7 +15,7 @@ module.exports = {
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: '/',
   },
   module: {
     rules: [{
